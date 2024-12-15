@@ -1,0 +1,355 @@
+*{
+  background-color: white;
+  padding: 0px;
+
+}
+body{
+  font-family: sans-serif;
+}
+h4{
+  color: #426f2f;
+  font-size: 1.2em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  section.noticia1 {
+    margin: 20px;
+    padding: 15px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 300px;
+    height: 250px; 
+  }
+  section.noticia2 {
+    margin: 20px;
+    padding: 15px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 300px;
+    height: 250px;
+  }
+  section.noticia3 {
+    margin: 20px;
+    padding: 15px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 300px;
+    height: 250px;
+  }
+  section.noticia4 {
+    margin: 20px;
+    padding: 15px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 300px;
+    height: 250px;
+  }
+  section.noticia5 {
+    margin: 20px;
+    padding: 15px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 300px;
+    height: 250px;
+  }
+  section.noticia6 {
+    margin: 20px;
+    padding: 15px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 300px;
+    height: 250px;
+  }
+  button {
+    background-color: #f16d00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  button:hover{
+    background-color: #ffb71b;
+    cursor: pointer;
+  }
+  .noticia {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Três colunas */
+    gap: 20px; /* Espaçamento entre os cartões */
+    padding: 20px;
+    background-color: white; /* Fundo opcional */
+  }
+  .noticias h4 {
+     color: #fce6ac;
+     font-size: 30px;
+     text-align: center;
+     border-bottom: 1px solid #131212b9;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     background-color: #426f2f;
+  }
+  .noticias p{
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+   
+   .container h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #638034;
+    color: #fce6ac;
+  }
+  .container a{
+    text-align: center;
+    background-color: #5f9768;
+    color: #426f2f;
+    margin-left: 30px;
+    border-radius: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 100px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .container h2{
+    color: #f16d00;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .inicio {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  .inicio img{
+    border-radius: 15px;
+  box-shadow: black 0 5px 30px;
+  }
+  .conteudo-sustentavel {
+    display: flex;
+    align-items: flex-start; /* Alinha conteúdo ao topo da imagem */
+    gap:300px; 
+  }
+  
+  .imagem-sustentavel {
+    width: 100%;
+    max-width: 400px; /* Define a largura máxima */
+    height: 700px; /* Mantém a proporção */
+    border-radius: 8px; /* Opcional: bordas arredondadas */
+  }
+  
+  .texto-sustentavel {
+    max-width: 1000px; /* Limite para o texto */
+  }
+  
+  .texto-sustentavel h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000000 ;
+    font-size:40px;
+    margin-bottom: 15px;
+  }
+  
+  .texto-sustentavel h3 {
+    font-size: 40px;
+    margin-top: 20px;
+    color: #f16d00;
+  }
+  
+  .texto-sustentavel p {
+    line-height:2.5em;
+    margin-bottom: 20px;
+  }
+  
+  /* Botão estilizado */
+  .btn-saiba-mais {
+    display: inline-block;
+    padding: 10px 15px;
+    color: #ffffff;
+    background-color: #f16d00;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .btn-saiba-mais:hover {
+    background-color: #ffb71b;
+  }
+  .rodape {
+    border-top:  1px solid #1f1e1e;
+    text-align: center;
+    width: 100%;
+  }
+ 
+  .artigo_moda_sustentavel{
+    display: flex;
+    align-items: flex-start; /* Alinha conteúdo ao topo da imagem */
+      gap:50px; 
+    }
+.cabecalho2 a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.introducao1{
+  display: flex;
+    align-items: flex-start; /* Alinha conteúdo ao topo da imagem */
+      gap:100px; 
+      font-size: 1.5em;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.introducao1 img{
+  border-radius: 15px;
+  box-shadow: black 0 5px 40px;
+}
+#noticia1 h2{
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+color: #f8678c;
+}                                           
+.introducao2{
+  display: flex;
+    align-items: flex-start; /* Alinha conteúdo ao topo da imagem */
+      gap:100px; 
+      font-size: 1.5em;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.introducao2 img{
+  border-radius: 15px;
+  box-shadow: black 0 5px 40px;
+}
+#noticia2 h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color: #f8678c;
+}
+.introducao3{
+  display: flex;
+    align-items: flex-start; /* Alinha conteúdo ao topo da imagem */
+      gap:100px; 
+      font-size: 1.5em;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.introducao3 img{
+  border-radius: 15px;
+  box-shadow: black 0 5px 40px;
+  margin-left: 30px;
+}
+#noticia3 h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color: #f8678c;
+}
+.introducao4{
+  display: flex;
+    align-items: flex-start; /* Alinha conteúdo ao topo da imagem */
+      gap:100px; 
+      font-size: 1.5em;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.introducao4 img{
+  border-radius: 15px;
+  box-shadow: black 0 5px 40px;
+  margin-left: 30px;
+}
+#noticia4 h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color: #f8678c;
+}
+.introducao5{
+  display: flex;
+    align-items: flex-start; /* Alinha conteúdo ao topo da imagem */
+      gap:100px; 
+      font-size: 2em;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.introducao5 img{
+  border-radius: 15px;
+  box-shadow: black 0 5px 40px;
+  margin-left: 30px;
+}
+#noticia5 h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color: #f8678c;
+}
+.introducao6{
+  display: flex;
+    align-items: flex-start; /* Alinha conteúdo ao topo da imagem */
+      gap:100px; 
+      font-size: 1.8em;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      margin-right: 30px;
+}
+.introducao6 img{
+  margin-top: 40px;
+  border-radius: 15px;
+  box-shadow: black 0 5px 40px;
+  margin-left: 30px;
+}
+#noticia6 h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color: #f8678c;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 20px;
+}
+
+input, textarea, select, button {
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.formulario h1{
+  color:#fce6ac;
+  background-color: #638034;
+  font-size: 50px;
+  text-align: center;
+} 
+.formulario a{
+
+  text-decoration: none;
+  color: #5f9768;
+  border-radius: 10px;
+  font-size: 35px;
+  margin-right: 50px;
+}
